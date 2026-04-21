@@ -94,3 +94,14 @@ tr:hover {
           left: 100px;
         }
       }
+
+      .pseudo-list li:nth-child(odd) {
+        background-color: lightgray;
+        width: 250px;
+      }
+      
+      .pseudo-list li:nth-child(even) {
+        background-color: white;
+        width: 250px;
+        
+      }
