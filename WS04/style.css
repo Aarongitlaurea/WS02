@@ -129,3 +129,15 @@ tr:hover {
         top: 0;
         color: lightgray;
       }
+
+      .grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px;
+}
+
+.grid-item {
+  background-color: rgb(211, 13, 6);
+  padding: 20px;
+  text-align: center;
+}
